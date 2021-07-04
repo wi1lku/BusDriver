@@ -178,7 +178,7 @@ public class MainWindow extends JPanel implements ActionListener {
                 }
             }
 
-            String s = "";
+            String s;
             switch(cardsNumber){
                 case 0:
                     int black = 26;
@@ -259,7 +259,10 @@ public class MainWindow extends JPanel implements ActionListener {
 
                     for(int i=0;i<4;++i){
                         for(int j=0;j<13;++j){
-                            if(cardsStateYours[i][j]) gotColors[i] = true;
+                            if (cardsStateYours[i][j]) {
+                                gotColors[i] = true;
+                                break;
+                            }
                         }
                     }
 
