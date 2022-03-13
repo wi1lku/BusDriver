@@ -5,3 +5,7 @@ First stage can be devided into four round. In each round player has to guess:
 2. Will the next card be lower or higher than the one received in point (1)? 
 3. Will the next card be between cards received in previous points?
 4. Will the next card be in a suit, that you already have?
+<hr>
+screenshots:
+
+![](screenshots/scr1.jpg) <!-- -->
